@@ -1,7 +1,7 @@
 const http = require("http");
 const fs = require("fs");
 var requests = require("requests");
-
+const port = process.env.PORT || 8000;
 const homeFile = fs.readFileSync("home.html", "UTF-8");
 
 const replaceVal = (tempVal, orgVal) => {
