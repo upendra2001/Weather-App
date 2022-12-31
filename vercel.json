@@ -3,7 +3,7 @@
     "name": "weather-app",
     "builds": [
         {
-            "src": "index.html",
+            "src": "index.js",
             "use": "@vercel/node"
         }
     ],
